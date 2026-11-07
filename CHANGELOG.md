@@ -3,6 +3,8 @@
 Định dạng theo [Keep a Changelog](https://keepachangelog.com/), đánh số theo [SemVer](https://semver.org/).
 
 ## [Unreleased]
+
+## [1.1.0] - 2026-11-07
 ### Added
 - TodoList.sort_by_title(), sort_by_priority()
 - search_by_priority()
