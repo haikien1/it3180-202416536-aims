@@ -20,3 +20,7 @@ class TodoList:
 
     def pending_count(self):
         return sum(1 for t in self.items if not t.done)
+
+    def print_list(self):
+        for t in self.items:
+            print(t)
