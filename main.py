@@ -8,6 +8,7 @@ def main():
     todo.add(Task("Write report", 2))
     todo.add(Task("Submit lab", 3))
     todo.complete("Learn Git")
+    todo.print_list()
     print("Pending tasks:", todo.pending_count())
 
 
