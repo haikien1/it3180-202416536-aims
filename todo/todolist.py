@@ -29,4 +29,4 @@ class TodoList:
             print(t)
 
     def filter_by_min_priority(self, min_priority):
-        return [t for t in self.items if t.priority <= min_priority]
+        return [t for t in self.items if t.priority >= min_priority]
