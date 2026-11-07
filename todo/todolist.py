@@ -9,6 +9,7 @@ class TodoList:
         if len(self.items) >= MAX_TASKS:
             return False
         self.items.append(task)
+        print(f"Added '{task.title}'")
         return True
 
     def complete(self, title):
