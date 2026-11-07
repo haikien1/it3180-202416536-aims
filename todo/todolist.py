@@ -6,7 +6,7 @@ class TodoList:
         self.items = []
 
     def add(self, task):
-        if len(self.items) > MAX_TASKS:
+        if len(self.items) >= MAX_TASKS:
             return False
         self.items.append(task)
         return True
