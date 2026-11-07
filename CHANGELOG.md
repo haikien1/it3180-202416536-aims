@@ -4,6 +4,11 @@
 
 ## [Unreleased]
 
+## [1.1.0] - 2026-11-07
+### Added
+- TodoList.sort_by_title(), sort_by_priority()
+- search_by_priority()
+
 ## [1.0.1] - 2026-11-07
 ### Fixed
 - search_by_title không còn phân biệt hoa thường (#20)

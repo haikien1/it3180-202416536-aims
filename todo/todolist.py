@@ -31,3 +31,9 @@ class TodoList:
 
     def filter_by_min_priority(self, min_priority):
         return [t for t in self.items if t.priority >= min_priority]
+
+    def sort_by_title(self):
+        self.items.sort(key=lambda t: t.title.lower())
+
+    def sort_by_priority(self):
+        self.items.sort(key=lambda t: t.priority, reverse=True)
