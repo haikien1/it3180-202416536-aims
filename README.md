@@ -24,3 +24,4 @@ python -m unittest discover -s tests -v
 Không commit trực tiếp lên `master` và `release/*`. Mọi thay đổi đi qua Pull Request.
 
 Commit message theo Conventional Commits: `feat`, `fix`, `refactor`, `docs`, `test`, `chore`, `ci`.
+- Yêu cầu: Python >= 3.10
