@@ -4,6 +4,8 @@
 kiểm thử bằng `unittest`). Dự án nhỏ, được dùng để thực hành **quản lý cấu hình
 phần mềm với Git & GitHub** (môn IT3180).
 
+Sinh viên: Cao Hải Kiên - MSSV: 202416536
+
 ## Chạy
 
 ```bash
