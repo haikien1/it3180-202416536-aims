@@ -5,4 +5,4 @@ def search_by_priority(items, priority):
 
 def search_by_title(items, keyword):
     """Return the tasks whose title contains the keyword."""
-    return [t for t in items if keyword in t.title]
+    return [t for t in items if keyword.lower() in t.title.lower()]

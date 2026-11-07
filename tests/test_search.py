@@ -14,3 +14,7 @@ class TestSearch(unittest.TestCase):
 
     def test_search_no_match(self):
         self.assertEqual(search_by_title(self.items, "xyz"), [])
+
+    def test_search_case_insensitive(self):
+        result = search_by_title(self.items, "git")
+        self.assertEqual([t.title for t in result], ["Learn Git"])
