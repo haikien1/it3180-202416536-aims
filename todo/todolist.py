@@ -22,5 +22,8 @@ class TodoList:
         return sum(1 for t in self.items if not t.done)
 
     def print_list(self):
+        if not self.items:
+            print("The list is empty")
+            return
         for t in self.items:
             print(t)
