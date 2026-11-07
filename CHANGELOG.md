@@ -4,6 +4,10 @@
 
 ## [Unreleased]
 
+## [1.0.1] - 2026-11-07
+### Fixed
+- search_by_title không còn phân biệt hoa thường (#20)
+
 ## [1.0.0] - 2026-11-07
 ### Added
 - TodoList.print_list(), filter_by_min_priority()
