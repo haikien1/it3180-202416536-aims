@@ -5,6 +5,7 @@
 ## [Unreleased]
 ### Added
 - TodoList.sort_by_title(), sort_by_priority()
+- search_by_priority()
 
 ## [1.0.0] - 2026-11-07
 ### Added
