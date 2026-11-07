@@ -1,5 +1,5 @@
-from task import Task
-from todolist import TodoList
+from todo.task import Task
+from todo.todolist import TodoList
 
 
 def main():
